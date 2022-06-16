@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="robot" content="index,follow">
+    <link rel="stylesheet" href="./bs/css/bootstrap.min.css">
+    <script src="./bs/js/bootstrap.bundle.min.js"></script>
+    <script src="./bs/js/jquery.slim.min.js"></script>
+    <title>猜一個0到3小遊戲</title>
+</head>
+<style>
+    
+</style>
+<body>    
+    <div style="z-index: -9;" id="ball">
+        <div class="halo"></div>
+        <div class="halo"></div>
+        <div class="halo"></div>
+    </div>
+    <p>請猜一個0到3的整數</p>
+    <input style="z-index: 10;" type="text" id="myInput" value="">
+    <!-- <button style="z-index: 10;" id="myButton" onclick="h123()"></button> -->
+    <button type="button" class="btn btn-dark" id="myButton" onclick="h123()">送出</button>
+</body>
+<script src="./js/script.js"></script>
+</html>
